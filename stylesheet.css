@@ -1,0 +1,44 @@
+/* th {background-color:gray;} */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Lucida Sans Unicode', 'Lucida Sans', 'Lucida Sans Console';
+}
+
+table, th, td, caption{
+    border: 1px solid black;
+    border-collapse:collapse;
+    padding:5px;
+}
+
+table caption{
+    background-color:#d9d9d9;
+    font-weight:bold
+}
+
+.footer {
+    width: 900px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-style: italic;
+    padding: 0.25px;
+}
+
+
+.s {
+    text-decoration: line-through;
+}
+
+.coluna-50 {
+    width: 50%;
+}
